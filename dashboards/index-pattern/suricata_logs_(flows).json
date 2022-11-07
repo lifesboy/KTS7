@@ -1,0 +1,43 @@
+{
+    "_id": "a6bc4a90-64eb-11e8-9e8d-39632dc6b766",
+    "_type": "search",
+    "_source": {
+        "title": "Suricata: Logs (flows)",
+        "description": "",
+        "hits": 0,
+        "columns": [
+            "flow_id",
+            "client_hostname",
+            "server_hostname",
+            "service_name",
+            "flow.bytes",
+            "flow.pkts"
+        ],
+        "sort": [
+            "@timestamp",
+            "desc"
+        ],
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"Flow\",\"disabled\":false,\"key\":\"event.subtype\",\"negate\":false,\"params\":{\"query\":\"flow\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"flow\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"flow\",\"type\":\"phrase\"}}}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "search": "7.0.0"
+    },
+    "_references": [
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        }
+    ]
+}

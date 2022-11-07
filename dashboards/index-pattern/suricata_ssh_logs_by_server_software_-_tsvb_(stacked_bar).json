@@ -1,0 +1,21 @@
+{
+    "_id": "44131520-82ba-11e9-8c3c-4925ccb1fc48",
+    "_type": "visualization",
+    "_source": {
+        "title": "Suricata: SSH Logs by Server Software - TSVB (stacked bar)",
+        "visState": "{\"title\":\"Suricata: SSH Logs by Server Software - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"55201580-6a64-11e8-88f6-3b2470bbb1c6\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"terms\",\"metrics\":[{\"id\":\"55201581-6a64-11e8-88f6-3b2470bbb1c6\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"bar\",\"line_width\":\"0\",\"point_size\":1,\"fill\":\"0.8\",\"stacked\":\"stacked\",\"terms_field\":\"ssh.server.software_version\",\"terms_size\":\"50\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"event.subtype: ssh\",\"axis_scale\":\"normal\",\"default_index_pattern\":\"suricata-*\"},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": []
+}

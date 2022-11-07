@@ -1,0 +1,40 @@
+{
+    "_id": "8679ce00-6a69-11e8-82af-6743288b8baf",
+    "_type": "search",
+    "_source": {
+        "title": "Suricata: Logs (all)",
+        "description": "",
+        "hits": 0,
+        "columns": [
+            "node.hostname",
+            "log.severity",
+            "event.subtype",
+            "client_hostname",
+            "server_hostname",
+            "service_name",
+            "flow.bytes",
+            "flow.pkts"
+        ],
+        "sort": [
+            "@timestamp",
+            "desc"
+        ],
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "search": "7.0.0"
+    },
+    "_references": [
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "_id": "8a33c210-8216-11e9-8c3c-4925ccb1fc48",
+    "_type": "visualization",
+    "_source": {
+        "title": "Suricata: TLS - input list",
+        "visState": "{\"title\":\"Suricata: TLS - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1527742767549\",\"fieldName\":\"node.hostname\",\"label\":\"Suricata Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":200,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"},{\"id\":\"1527742882773\",\"fieldName\":\"tls.sni\",\"label\":\"SNI\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_1_index_pattern\"},{\"id\":\"1527742906725\",\"fieldName\":\"tls.subject\",\"label\":\"Subject\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_2_index_pattern\"},{\"id\":\"1528397010577\",\"fieldName\":\"tls.issuerdn\",\"label\":\"Issuer\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_3_index_pattern\"},{\"id\":\"1527752158563\",\"fieldName\":\"tls.version\",\"label\":\"Version\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_4_index_pattern\"}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true,\"pinFilters\":false},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": [
+        {
+            "name": "control_0_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_1_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_2_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_3_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_4_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        }
+    ]
+}

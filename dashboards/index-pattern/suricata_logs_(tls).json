@@ -1,0 +1,41 @@
+{
+    "_id": "6dbd0910-823a-11e9-8c3c-4925ccb1fc48",
+    "_type": "search",
+    "_source": {
+        "title": "Suricata: Logs (tls)",
+        "description": "",
+        "hits": 0,
+        "columns": [
+            "tls.sni",
+            "service_name",
+            "tls.version",
+            "tls.subject"
+        ],
+        "sort": [
+            "@timestamp",
+            "desc"
+        ],
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"alias\":\"TLS\",\"negate\":false,\"type\":\"phrase\",\"key\":\"event.subtype\",\"value\":\"tls\",\"params\":{\"query\":\"tls\"},\"disabled\":false,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"tls\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "search": "7.0.0"
+    },
+    "_references": [
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "AWFhGnANugC1WJLdzaom",
+    "_type": "visualization",
+    "_source": {
+        "title": "Synesis: Logo",
+        "visState": "{\"title\":\"Synesis: Logo\",\"type\":\"markdown\",\"params\":{\"fontSize\":8,\"markdown\":\"[![sÃ½nesisâ„¢ Lite for Syslog](http://www.koiossian.com/public/synesis_logo.svg)](http://www.koiossian.com)\",\"openLinksInNewTab\":false,\"type\":\"markdown\"},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":{\"match_all\":{}}},\"filter\":[]}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": []
+}

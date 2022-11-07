@@ -1,0 +1,21 @@
+{
+    "_id": "f48201a0-7c66-11e9-ab58-c1e5cf60a7ac",
+    "_type": "visualization",
+    "_source": {
+        "title": "Suricata: NAV: Flows (sankey) - TSVB (markdown)",
+        "visState": "{\"title\":\"Suricata: NAV: Flows (sankey) - TSVB (markdown)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"markdown\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"#68BC00\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"separate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":1,\"fill\":0.5,\"stacked\":\"none\",\"offset_time\":\"-5y\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"\",\"interval\":\"auto\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"axis_scale\":\"normal\",\"show_legend\":1,\"show_grid\":1,\"default_index_pattern\":\"syslog-*\",\"markdown_less\":\"p {\\n    color: #cccccc;\\n    margin-top: 0px;\\n    margin-bottom: 16px;\\n}\\np a {\\n    color: #00bfb3;\\n\\tfont-size: 14px;\\n\\tfont-weight: bold;\\n\\ttext-decoration: none;\\n}\\np a strong {\\n    color: #f04e98;\\n\\tfont-weight: bold;\\n}\\nhr {\\n    background-color: #cccccc;\\n    margin: 0px;\\n    height: 1px;\\n}\",\"markdown_css\":\"#markdown-61ca57f0-469d-11e7-af02-69e470af7417 p{color:#cccccc;margin-top:0;margin-bottom:16px}#markdown-61ca57f0-469d-11e7-af02-69e470af7417 p a{color:#00bfb3;font-size:14px;font-weight:bold;text-decoration:none}#markdown-61ca57f0-469d-11e7-af02-69e470af7417 p a strong{color:#f04e98;font-weight:bold}#markdown-61ca57f0-469d-11e7-af02-69e470af7417 hr{background-color:#cccccc;margin:0;height:1px}\",\"markdown\":\"[Overview](#/dashboard/73c81560-64b9-11e8-9e8d-39632dc6b766) | [Talkers](#/dashboard/61f52550-64ee-11e8-9e8d-39632dc6b766) | [Services](#/dashboard/d05a4110-64ee-11e8-9e8d-39632dc6b766) | [**Sankey**](#/dashboard/eec67e20-64ee-11e8-9e8d-39632dc6b766) | [Geo IP](#/dashboard/a7f80970-64ec-11e8-9e8d-39632dc6b766) | [Messages](#/dashboard/c4e2cc10-64eb-11e8-9e8d-39632dc6b766)\\n![](http://www.koiossian.com/public/suricata.gif)\\n***\"},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"kuery\"},\"filter\":[]}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": []
+}
