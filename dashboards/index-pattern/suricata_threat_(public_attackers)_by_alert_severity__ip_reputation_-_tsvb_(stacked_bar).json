@@ -1,0 +1,21 @@
+{
+    "_id": "403194e0-6678-11e8-a67b-cd4cf123b2a5",
+    "_type": "visualization",
+    "_source": {
+        "title": "Suricata: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)",
+        "visState": "{\"title\":\"Suricata: Threat (Public Attackers) by Alert Severity & IP Reputation - TSVB (stacked bar)\",\"type\":\"metrics\",\"params\":{\"annotations\":[],\"axis_formatter\":\"number\",\"axis_min\":\"0\",\"axis_position\":\"left\",\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"index_pattern\":\"suricata-*\",\"interval\":\">=1m\",\"series\":[{\"id\":\"645fe9d0-6659-11e8-9465-c9d44be09ca7\",\"color\":\"rgba(0,98,177,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"646010e0-6659-11e8-9465-c9d44be09ca7\",\"type\":\"count\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"3\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"filter\":\"_exists_: rep_tags\",\"axis_min\":\"\",\"label\":\"Bad Reputation\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(244,78,59,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 1\",\"formatter\":\"number\",\"id\":\"e1d24840-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Alert\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"e1d24841-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(254,146,0,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 2\",\"formatter\":\"number\",\"id\":\"fc678cb0-64ab-11e8-ad8a-29349eba0f86\",\"label\":\"Critical\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"fc678cb1-64ab-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(0,156,224,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 3\",\"formatter\":\"number\",\"id\":\"1b391b40-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Warning\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"1b391b41-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(171,20,158,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: 4\",\"formatter\":\"number\",\"id\":\"33888e60-64ac-11e8-ad8a-29349eba0f86\",\"label\":\"Notice\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"33888e61-64ac-11e8-ad8a-29349eba0f86\",\"type\":\"count\"}],\"point_size\":\"6\",\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\"},{\"axis_position\":\"right\",\"chart_type\":\"bar\",\"color\":\"rgba(123,100,255,1)\",\"fill\":\"1\",\"filter\":\"alert.severity: [5 TO *]\",\"formatter\":\"number\",\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"label\":\"Other\",\"line_width\":\"0\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"count\"}],\"point_size\":1,\"seperate_axis\":0,\"split_mode\":\"everything\",\"stacked\":\"stacked\",\"terms_field\":\"event.subtype\",\"terms_size\":\"25\",\"value_template\":\"{{value}}\"}],\"show_grid\":1,\"show_legend\":1,\"time_field\":\"@timestamp\",\"type\":\"timeseries\",\"filter\":\"( _exists_: alert.severity OR _exists_: rep_tags ) AND NOT client_autonomous_system: private\"},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": []
+}

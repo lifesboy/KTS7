@@ -1,0 +1,79 @@
+{
+    "_id": "73c81560-64b9-11e8-9e8d-39632dc6b766",
+    "_type": "dashboard",
+    "_source": {
+        "title": "Suricata: Flows (Overview)",
+        "hits": 0,
+        "description": "",
+        "panelsJSON": "[{\"gridData\":{\"x\":42,\"y\":0,\"w\":6,\"h\":4,\"i\":\"2\"},\"panelIndex\":\"2\",\"title\":\"\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_0\"},{\"gridData\":{\"x\":0,\"y\":4,\"w\":9,\"h\":41,\"i\":\"3\"},\"panelIndex\":\"3\",\"title\":\"\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_1\"},{\"gridData\":{\"x\":9,\"y\":4,\"w\":39,\"h\":15,\"i\":\"4\"},\"panelIndex\":\"4\",\"title\":\"Flows by Service\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_2\"},{\"gridData\":{\"x\":22,\"y\":19,\"w\":13,\"h\":11,\"i\":\"13\"},\"panelIndex\":\"13\",\"title\":\"Servers (bytes)\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_3\"},{\"gridData\":{\"x\":35,\"y\":19,\"w\":13,\"h\":11,\"i\":\"14\"},\"panelIndex\":\"14\",\"title\":\"Services (bytes)\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_4\"},{\"gridData\":{\"x\":9,\"y\":30,\"w\":13,\"h\":11,\"i\":\"18\"},\"panelIndex\":\"18\",\"title\":\"VLANs (bytes)\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_5\"},{\"gridData\":{\"x\":9,\"y\":19,\"w\":13,\"h\":11,\"i\":\"19\"},\"panelIndex\":\"19\",\"title\":\"Clients (bytes)\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_6\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":4,\"i\":\"22\"},\"panelIndex\":\"22\",\"title\":\"\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_7\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":24,\"y\":0,\"w\":18,\"h\":4,\"i\":\"23\"},\"panelIndex\":\"23\",\"title\":\"\",\"version\":\"7.0.1\",\"panelRefName\":\"panel_8\"},{\"gridData\":{\"x\":35,\"y\":30,\"w\":13,\"h\":11,\"i\":\"24\"},\"version\":\"7.0.1\",\"panelIndex\":\"24\",\"embeddableConfig\":{},\"title\":\"Flow States and TCP Flags (bytes)\",\"panelRefName\":\"panel_9\"},{\"gridData\":{\"x\":22,\"y\":30,\"w\":13,\"h\":11,\"i\":\"25\"},\"version\":\"7.0.1\",\"panelIndex\":\"25\",\"embeddableConfig\":{},\"title\":\"IP Versions and Protocols (bytes)\",\"panelRefName\":\"panel_10\"}]",
+        "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":false}",
+        "version": 1,
+        "timeRestore": false,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "dashboard": "7.0.0"
+    },
+    "_references": [
+        {
+            "name": "panel_0",
+            "type": "visualization",
+            "id": "f3890650-648d-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_1",
+            "type": "visualization",
+            "id": "ed2b5ed0-64b9-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_2",
+            "type": "visualization",
+            "id": "dab25cd0-64c4-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_3",
+            "type": "visualization",
+            "id": "20fa0c30-6441-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_4",
+            "type": "visualization",
+            "id": "3147c7c0-644c-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_5",
+            "type": "visualization",
+            "id": "0feaddf0-644d-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_6",
+            "type": "visualization",
+            "id": "5b77cd70-6441-11e8-9e8d-39632dc6b766"
+        },
+        {
+            "name": "panel_7",
+            "type": "visualization",
+            "id": "85e74c60-7c65-11e9-ab58-c1e5cf60a7ac"
+        },
+        {
+            "name": "panel_8",
+            "type": "visualization",
+            "id": "cf1a3360-7c66-11e9-ab58-c1e5cf60a7ac"
+        },
+        {
+            "name": "panel_9",
+            "type": "visualization",
+            "id": "780ac400-7cbf-11e9-ab58-c1e5cf60a7ac"
+        },
+        {
+            "name": "panel_10",
+            "type": "visualization",
+            "id": "34c16c80-7cbf-11e9-ab58-c1e5cf60a7ac"
+        }
+    ]
+}

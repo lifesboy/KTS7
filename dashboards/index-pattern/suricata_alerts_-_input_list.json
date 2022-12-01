@@ -1,0 +1,62 @@
+{
+    "_id": "4f5f1750-64aa-11e8-9e8d-39632dc6b766",
+    "_type": "visualization",
+    "_source": {
+        "title": "Suricata: Alerts - input list",
+        "visState": "{\"title\":\"Suricata: Alerts - input list\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1527742767549\",\"fieldName\":\"node.hostname\",\"label\":\"Suricata Instance\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":200,\"order\":\"desc\"},\"indexPatternRefName\":\"control_0_index_pattern\"},{\"id\":\"1527752158563\",\"fieldName\":\"alert.category\",\"label\":\"Alert Category\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_1_index_pattern\"},{\"id\":\"1527752214385\",\"fieldName\":\"alert.signature\",\"label\":\"Alert Signature\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_2_index_pattern\"},{\"id\":\"1527751977828\",\"fieldName\":\"log.severity\",\"label\":\"Severity\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":50,\"order\":\"desc\"},\"indexPatternRefName\":\"control_3_index_pattern\"},{\"id\":\"1527742882773\",\"fieldName\":\"client_hostname\",\"label\":\"Client\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_4_index_pattern\"},{\"id\":\"1527742906725\",\"fieldName\":\"server_hostname\",\"label\":\"Server\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":2500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_5_index_pattern\"},{\"id\":\"1527742928304\",\"fieldName\":\"service_name\",\"label\":\"Service\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":1000,\"order\":\"desc\"},\"indexPatternRefName\":\"control_6_index_pattern\"},{\"id\":\"1527752383061\",\"fieldName\":\"rep_tags\",\"label\":\"IP Reputation\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":false,\"size\":500,\"order\":\"desc\"},\"indexPatternRefName\":\"control_7_index_pattern\"}],\"updateFiltersOnChange\":true,\"useTimeFilter\":true},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": [
+        {
+            "name": "control_0_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_1_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_2_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_3_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_4_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_5_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_6_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "control_7_index_pattern",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        }
+    ]
+}

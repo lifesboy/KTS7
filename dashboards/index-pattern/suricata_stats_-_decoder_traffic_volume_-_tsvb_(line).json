@@ -1,0 +1,21 @@
+{
+    "_id": "340bf770-6b08-11e8-82af-6743288b8baf",
+    "_type": "visualization",
+    "_source": {
+        "title": "Suricata: Stats - Decoder Traffic Volume - TSVB (line)",
+        "visState": "{\"title\":\"Suricata: Stats - Decoder Traffic Volume - TSVB (line)\",\"type\":\"metrics\",\"params\":{\"id\":\"61ca57f0-469d-11e7-af02-69e470af7417\",\"type\":\"timeseries\",\"series\":[{\"id\":\"61ca57f1-469d-11e7-af02-69e470af7417\",\"color\":\"rgba(4,70,108,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"61ca57f2-469d-11e7-af02-69e470af7417\",\"type\":\"max\",\"field\":\"stats.decoder.pkts\"},{\"unit\":\"1s\",\"id\":\"46962bf0-6b07-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"61ca57f2-469d-11e7-af02-69e470af7417\"}],\"seperate_axis\":1,\"axis_position\":\"right\",\"formatter\":\"number\",\"chart_type\":\"line\",\"line_width\":\"2\",\"point_size\":\"0\",\"fill\":\"0\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Packets\",\"axis_min\":\"0\"},{\"id\":\"8fcb2b40-6b07-11e8-a574-99ddd28603da\",\"color\":\"rgba(144,201,227,1)\",\"split_mode\":\"everything\",\"metrics\":[{\"id\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"type\":\"max\",\"field\":\"stats.decoder.bytes\"},{\"script\":\"params.bytes * 8\",\"id\":\"8fcb2b43-6b07-11e8-a574-99ddd28603da\",\"type\":\"calculation\",\"variables\":[{\"id\":\"8fcb2b42-6b07-11e8-a574-99ddd28603da\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\",\"name\":\"bytes\"}]},{\"unit\":\"1s\",\"id\":\"8fcb2b44-6b07-11e8-a574-99ddd28603da\",\"type\":\"derivative\",\"field\":\"8fcb2b41-6b07-11e8-a574-99ddd28603da\"}],\"seperate_axis\":0,\"axis_position\":\"right\",\"formatter\":\"bytes\",\"chart_type\":\"line\",\"line_width\":1,\"point_size\":\"0\",\"fill\":\"0.7\",\"stacked\":\"none\",\"value_template\":\"{{value}}/s\",\"label\":\"Bytes\",\"axis_min\":\"0\"}],\"time_field\":\"@timestamp\",\"index_pattern\":\"suricata_stats-*\",\"interval\":\">=1m\",\"axis_position\":\"left\",\"axis_formatter\":\"number\",\"show_legend\":1,\"show_grid\":1,\"axis_min\":\"0\"},\"aggs\":[]}",
+        "uiStateJSON": "{}",
+        "description": "",
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "visualization": "7.0.1"
+    },
+    "_references": []
+}

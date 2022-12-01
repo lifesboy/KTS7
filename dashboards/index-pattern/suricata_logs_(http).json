@@ -1,0 +1,42 @@
+{
+    "_id": "e914b550-6a70-11e8-82af-6743288b8baf",
+    "_type": "search",
+    "_source": {
+        "title": "Suricata: Logs (http)",
+        "description": "",
+        "hits": 0,
+        "columns": [
+            "client_hostname",
+            "http.http_method",
+            "http.hostname",
+            "http.url",
+            "http.status"
+        ],
+        "sort": [
+            "@timestamp",
+            "desc"
+        ],
+        "version": 1,
+        "kibanaSavedObjectMeta": {
+            "searchSourceJSON": "{\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":\"HTTP\",\"disabled\":false,\"key\":\"event.subtype\",\"negate\":false,\"params\":{\"query\":\"http\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"http\",\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index\"},\"query\":{\"match\":{\"event.subtype\":{\"query\":\"http\",\"type\":\"phrase\"}}}}],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\"}"
+        }
+    },
+    "_meta": {
+        "savedObjectVersion": 2
+    },
+    "_migrationVersion": {
+        "search": "7.0.0"
+    },
+    "_references": [
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        },
+        {
+            "name": "kibanaSavedObjectMeta.searchSourceJSON.filter[0].meta.index",
+            "type": "index-pattern",
+            "id": "suricata-*"
+        }
+    ]
+}
